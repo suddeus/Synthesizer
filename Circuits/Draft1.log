@@ -1,0 +1,19 @@
+LTspice 26.0.2 for MacOS
+Circuit: /Users/suddeus/Desktop/Projects/Synthesizer/Circuits/Draft1.net
+Start Time: Wed Nov 25 03:00:40 2026
+solver = Normal
+Maximum thread count: 10
+tnom = 27
+temp = 27
+method = trap
+WARNING: Node nc_02 is floating.
+
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.057 seconds.
+
+Files loaded:
+/Users/suddeus/Desktop/Projects/Synthesizer/Circuits/Draft1.net
+/Users/suddeus/Library/Application Support/LTspice/Bottles/ltspice/drive_c/users/crossover/AppData/Local/LTspice/lib/cmp/standard.bjt
+/Users/suddeus/Desktop/Projects/Synthesizer/Circuits/lib/TIP35C.LIB
+/Users/suddeus/Desktop/Projects/Synthesizer/Circuits/lib/TIP36C.LIB
+

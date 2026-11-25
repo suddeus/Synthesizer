@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "avr",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build",
+      "toolchainFile": "${sourceDir}/cmake/avr-toolchain.cmake"
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "avr",
+      "configurePreset": "avr"
+    }
+  ]
+}

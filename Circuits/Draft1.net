@@ -1,0 +1,21 @@
+*
+Q1 N002 N006 N007 0 Qtip35c
+R_c N001 N002 6
+V1 N004 0 PULSE(0 5 0 0.0002 0.0002 0.02 0.04 100)
+V2 N001 0 12
+R_load N003 0 6
+R_b N001 N006 3k
+V3 NC_01 NC_02 2.5
+R1 N006 N005 330
+R_e N007 0 1
+C1 N003 N002 22000µ
+C2 N005 N004 47µ
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\crossover\AppData\Local\LTspice\lib\cmp\standard.bjt
+.lib lib/TIP35C.LIB
+* .op
+.lib lib/TIP36C.LIB
+.tran 0.5
+.backanno
+.end

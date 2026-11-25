@@ -1,0 +1,8 @@
+build/
+cmake-build-debug/
+*.elf
+*.hex
+*.o
+*.map
+.DS_Store
+.idea/
