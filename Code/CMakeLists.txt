@@ -18,7 +18,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(etl)
 
 file(GLOB_RECURSE SOURCE_FILES CONFIGURE_DEPENDS
-    ${PROJECT_SOURCE_DIR}/src/*
+        "${PROJECT_SOURCE_DIR}/src/*.cpp"
 )
 
 function(add_avr_firmware TARGET MCU F_CPU)
@@ -69,3 +69,4 @@ function(add_avr_firmware TARGET MCU F_CPU)
 endfunction()
 
 add_subdirectory(examples/shift_register)
+add_subdirectory(examples/spi)
